@@ -1,0 +1,16 @@
+{
+    "name": "Twitter Popup Remover",
+    "description": "Extenstion that removes the Twitter 'Login or signup' popup",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+
+    "permissions": ["storage", "activeTab", "scripting"],
+
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
